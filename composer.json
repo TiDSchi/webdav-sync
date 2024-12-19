@@ -1,0 +1,22 @@
+{
+  "name": "contelli/webdav-sync",
+  "description": "",
+  "keywords": ["webdav", "lybrary", "sync"],
+  "license" : "MIT",
+  "authors": [
+    {
+      "name": "Thomas Günther",
+      "email": "th.guenther@saale-mail.de",
+      "homepage": "https://github.com/TiDschi"
+    }
+  ],
+  "require": {
+    "php" : ">=8.2"
+  },
+  "homepage" : "https://github.com/TiDschi/webdav-sync",
+  "autoload": {
+    "psr-4": {
+      "WebDav\\": "src/"
+    }
+  }
+}
